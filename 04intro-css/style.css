@@ -68,7 +68,7 @@ main ol {
     margin-left: 1rem;
     border: 1px solid #3c5556;
     border-radius: .5rem;
-    color: #bf7465;
+    color: #3c5556;
     line-height: 150%;
 }
 main ol a {
@@ -78,7 +78,7 @@ main ol a:hover {
     color: white;
 }
 main dl dt {
-    color: #bf7465;
+    color: #3c5556;
     font-weight: 700;
     margin-left: 1rem;
 }
