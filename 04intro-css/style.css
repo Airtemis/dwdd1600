@@ -39,7 +39,7 @@ nav a {
         /*Apple recommends 42 px buttons; Google recommends 48 px... try to mess with the rms above to find one of those*/
 }
 nav li.active a {
-    background-color: #bf7465;
+    background-color: #894639;
         color: #f6efe7;
 }
 nav a:hover {
@@ -95,7 +95,7 @@ main ul li {
     font-size: .9rem;
 }
 main a {
-    color: #bf7465
+    color: #4b7173
 }
 main a:hover {
     color: #bf7465
@@ -104,13 +104,13 @@ main a:hover {
 footer {
     background-color: #bf7465;
     text-align: center;
-    color: white;
+    color: black;
     padding: .5rem 0;
     font-size: .8rem;
 }
 footer a {
-    color:white;
+    color: black;
 }
 footer a:hover {
-    color: #4b7173
+    color: #e9f1ef
 }
