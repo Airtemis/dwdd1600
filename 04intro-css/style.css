@@ -96,11 +96,11 @@ main ul li {
     font-size: .9rem;
 }
 main a {
-    color: #bf7465;
+    color: #3c5556;
     text-decoration: none;
 }
 main a:hover {
-    color: #3c5556
+    color: #bf7465;
 }
 /*Start Footer Style */
 footer {
