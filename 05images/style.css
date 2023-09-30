@@ -1,0 +1,148 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/*Start Header Style*/
+header {
+    background-color: #4b7173;
+    padding: 1rem 2%;
+}
+header h1 {
+    color: #e9f1ef;
+    margin: 0;
+    letter-spacing: .5px;
+}
+header p {
+    margin: 0;
+    color: #e9f1ef;
+    letter-spacing: .09px;
+}
+/*Start Nav Style*/
+nav {
+    background-color: #f5d4c3;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #3c5556;
+    font-weight: 700;
+    display: block;
+    padding: .75rem 2rem;
+        /*Apple recommends 42 px buttons; Google recommends 48 px... try to mess with the rms above to find one of those*/
+}
+nav li.active a {
+    background-color: #894639;
+        color: #f6efe7;
+}
+nav a:hover {
+    color: white;
+}
+/*Start Main Style*/
+main {
+    padding: 1rem 2%;
+    background-color: #f6efe7;
+}
+main h1 {
+    color: #4b7173;
+}
+main h2 {
+    color: #bf7465;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #3c5556;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 5%;
+    background-color: #f5d4c3;
+    width: 12.5rem;
+    margin-left: 1rem;
+    border: 1px solid #3c5556;
+    border-radius: .5rem;
+    color: #3c5556;
+    line-height: 150%;
+}
+main ol a {
+    color: #3c5556;
+    text-decoration: none;
+}
+main ol a:hover {
+    color: white;
+}
+main dl dt {
+    color: #3c5556;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+main dl dd {
+    color: #3c5556;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type:square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .25rem;
+    font-size: .9rem;
+}
+main a {
+    color: #3c5556;
+    text-decoration: none;
+}
+main a:hover {
+    color: #bf7465;
+}
+/*Main Page Wrapped Image*/
+    figure.wrapped {
+        width: 30%;
+        margin: 0;
+        margin-left: 2%;
+        float: right;
+    }
+    figure.wrapped img {
+        width: 100%;
+        height: auto;
+    }
+    figure.wrapped figcaption {
+        text-align: center;
+        font-size: .8rem;
+        color:#bf7465;
+        clear: both;
+    }
+/* Start Gallery Formatting*/
+ div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ div.gallery figure {
+    margin: .5rem 2% 0 0;
+ }
+ div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color:#bf7465;
+ }
+/*Start Footer Style */
+footer {
+    background-color: #bf7465;
+    text-align: center;
+    color: black;
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: #e9f1ef
+}
