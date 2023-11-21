@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dime Destinations: Home</title>
+        <meta name="description" content="Adventure Meets Affordability">
+        <meta name="author" content="Megan Durrant">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+<body>
+<!--Start Page Header Here-->
+<header>
+    <img src="images/travellogo.png" alt="travel logo" width="100" height="100">
+    <div>
+        <h1>Dime Destinations</h1>
+        <p>Adventure Meets Affordability</p>
+    </div>
+</header>
+<!--Start Nav Here-->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+<!--Start Page Content Here-->
+<main>
+    <h1>Contact Us</h1>
+        <h2>Please fill out the form below and our next available agent will reach out.</h2>
+             <form method="get" class="theForm" action="thankyou.html">
+                 <fieldset>
+                     <legend>Contact Information</legend>
+                      <label> First Name * <input type="text" name="fname" required placeholder="Susan"> </label>
+                      <label> Last Name * <input type="text" name="name" required placeholder="Sanchez"> </label>
+                      <label> Phone Number * <input type="tel" name="phone" required placeholder="987-655-1234"> </label>
+                      <label> Email Address * <input type="email" name="email" required placeholder="s.sanchez9908@gmail.com"> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                            <label> <input type="radio" name="method" value="phone"> Phone Call</label>
+                            <label> <input type="radio" name="method" value="email"> Email</label>
+                            <label> <input type="radio" name="method" value="text"> Text</label>
+                            <label>Availability
+                                <select name="time">
+                                    <option value="none"> Please Select</option>
+                                    <option value="morning"> Morning (5AM-11AM)</option>
+                                    <option value="afternoon"> Afternoon (12PM-4PM)</option>
+                                    <option value="evening"> Evening (5PM-9PM)</option>
+                                    <option value="night"> Night (10PM-4AM)</option>
+                                </select>
+                            </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Packages You Would Like to Discuss</legend>
+                            <label> <input type="checkbox" name="soutah" value="yes"> Southern Utah </label>
+                            <label> <input type="checkbox" name="virg" value="yes"> Virginia Appalachian </label>
+                            <label> <input type="checkbox" name="carib" value="yes"> The Caribbean </label>
+                    </fieldset>
+                  
+                    <label>Comments
+                        <textarea name="suggestions"></textarea>
+                    </label>
+                    <input type="submit" value="Send Form">
+                </form>
+</main>
+<!--Start of Footer-->
+<footer>
+    <p>&copy; 2023 &bull; Megan Durrant &bull; <a href="mailto:cs.dime.destinations8879@gmail.com">Email Us</a> &bull; <a href="tel:8019003569">Call Us</a></p>
+</footer>
+</body>
+</html>
